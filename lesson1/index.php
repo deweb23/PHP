@@ -24,5 +24,8 @@
     <h1>
         <?php echo 'Hello, World!' ?>
     </h1>
+    <p>
+        <?= 'This short version of the \'echo\' operator' ?>
+    </p>
 </body>
 </html>
