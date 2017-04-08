@@ -51,8 +51,8 @@ $o = new \stdClass(); // object
 $b = true; // boolean
 $n = null; // null
 
-echo "\"double quote\"";
-echo '\'single quote\'';
+echo "\"double quote\"" . '<br>';
+echo '\'single quote\'' . '<br>';
 ?>
 <!doctype html>
 <html lang="en">
