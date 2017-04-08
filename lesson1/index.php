@@ -1,6 +1,6 @@
 <?php
 /**
- * PHP tags, variables, operators, useful functions
+ * PHP tags, variables, operators, useful functions, constants
  *
  * PHP config:
  * 1) php.ini file
@@ -72,6 +72,12 @@ echo 'Now it is a - ' . gettype($number) . '<br>'; // show type of variable
 var_dump($number); // show type, size and value of variable
 
 // die(); // break script work in this line
+
+// Constants
+define('PI', 14);
+const Pi = 14;
+var_dump(PI);
+var_dump(Pi);
 ?>
 <!doctype html>
 <html lang="en">
