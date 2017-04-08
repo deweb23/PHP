@@ -1,6 +1,6 @@
 <?php
 /**
- * PHP tags, variables, operators
+ * PHP tags, variables, operators, useful functions
  *
  * PHP config:
  * 1) php.ini file
@@ -63,6 +63,15 @@ $toCopy = 1;
 $copied = $toCopy; // copy variable value
 $copiedByLink &= $toCopy; // copy link to the variable
 // @hello(); // ignore all php errors
+
+// Useful functions
+$number = 'it is a number';
+settype($number, 'string');
+echo 'Now it is a - ' . gettype($number) . '<br>'; // show type of variable
+
+var_dump($number); // show type, size and value of variable
+
+// die(); // break script work in this line
 ?>
 <!doctype html>
 <html lang="en">
