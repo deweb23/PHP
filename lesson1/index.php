@@ -1,6 +1,6 @@
 <?php
 /**
- * PHP tags, variables
+ * PHP tags, variables, operators
  *
  * PHP config:
  * 1) php.ini file
@@ -53,6 +53,16 @@ $n = null; // null
 
 echo "\"double quote\"" . '<br>';
 echo '\'single quote\'' . '<br>';
+
+// Operators
+$tempVar = 'temp var';
+unset($tempVar); // delete variable
+$res = isset($tempVar); // check is variable exists
+
+$toCopy = 1;
+$copied = $toCopy; // copy variable value
+$copiedByLink &= $toCopy; // copy link to the variable
+// @hello(); // ignore all php errors
 ?>
 <!doctype html>
 <html lang="en">
