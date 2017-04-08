@@ -34,6 +34,15 @@ $f = 2.0; // float
 
 $str1 = '$i\n'; // string
 $str2 = "$i\n"; // string
+$str3 = <<<HEREDOC
+Lorem ipsum dolor sit amet,
+consectetur adipisicing elit.
+Amet animi asperiores assumenda atque aut blanditiis
+dolores eligendi esse eum eveniet id illum in
+ipsa laboriosam libero maxime odit perferendis
+praesentium provident quis quisquam recusandae reprehenderit repudiandae sunt,
+unde veniam veritatis vero voluptate voluptatibus voluptatum.
+HEREDOC;
 
 $a = array(); // array
 $a = []; // array
