@@ -7,12 +7,6 @@
  * 2) server configuration - nginx, apache etc.
  * 3) php_set() function
  *
- * PHPStorm hot keys
- * Double shift
- * Ctrl + Shift + N - search files
- * Ctrl + Shift + Alt + N - search function by name
- * Ctrl + Shift + F - search code
- *
  * @author Vladimir Kuprienko <vldmr.kuprienko@gmail.com>
  */
 
